@@ -1,0 +1,63 @@
+form{
+ text-align: center;
+ padding:20px;
+ 
+    
+   }
+nav{
+ text-align: center;
+ font-family: cursive;
+ font-size: 30px;
+ font-weight: 300;}
+
+div{
+ padding-bottom:5px;
+   }
+.col-sm-4{
+ border-style:solid;
+ margin-left:59px;
+ background-color:darksalmon;
+ height:450px;
+   }
+.col-sm-7{
+ height:450px;
+ border-style:solid;
+ margin-left:17px;
+ background-color:khaki;
+   }
+.col-sm-12{
+ text-align:center;
+ border-style:solid;
+ width:1200px;
+ height:60px;
+ background-color:lavender;
+   }
+.jumbotron{
+    font-family: 'Bangers', cursive;
+   }
+   
+h3{
+    background-color:lightgray;
+    margin-left:-15px;
+    margin-right:-15px;
+    padding:7px;
+    font-family: 'Kalam';
+
+}
+h2{
+    background-color:lightgray;
+    margin-left:-15px;
+    margin-right:-15px;
+    padding:7px;
+    font-family: 'Kalam';
+}
+.col-sm-5{
+   border-style:solid;
+   margin:5px;
+   height:215px;
+   background-color:lightsteelblue;
+   
+}
+body{
+   background-image:url("https://hdwallpaper20.com/wp-content/uploads/data/2018/4/5/Black-and-White-Computer-Backgrounds-best-black-and-white-computer-backgrounds-1920x1200-high-resolution-PIC-HWB450933.jpg");
+}
