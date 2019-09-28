@@ -9,14 +9,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
         $( document ).ready(function() {
-          var queryURL = "https://geek-jokes.sameerkumar.website/api";
+          var queryURL = "https://api.adviceslip.com/advice";
     
           $.ajax({
             url: queryURL,
             method: "GET"
           })
           .then(function(response){
-              var advice= response;
+              var advice= JSON.parse(response).slip.advice;
             $("#myAdvice").html(advice);
           })
            
@@ -27,7 +27,7 @@
 <body>
     <div class="card">
   <div class="card-header">
-    <p class="text-center">GEEK JOKES</p>
+    <p class="text-center">Advice of the Day</p>
   </div>
   <div class="card-body text-info">
     <blockquote class="blockquote mb-0">
