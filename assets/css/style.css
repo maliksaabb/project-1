@@ -1,63 +1,115 @@
-form{
- text-align: center;
- padding:20px;
- 
-    
-   }
-nav{
- text-align: center;
- font-family: cursive;
- font-size: 30px;
- font-weight: 300;}
+body {
+   background-image: url("../images/topography.png");
+}
 
-div{
- padding-bottom:5px;
-   }
-.col-sm-4{
- border-style:solid;
- margin-left:59px;
- background-color:darksalmon;
- height:450px;
-   }
-.col-sm-7{
- height:450px;
- border-style:solid;
- margin-left:17px;
- background-color:khaki;
-   }
-.col-sm-12{
- text-align:center;
- border-style:solid;
- width:1200px;
- height:60px;
- background-color:lavender;
-   }
-.jumbotron{
-    font-family: 'Bangers', cursive;
-   }
-   
-h3{
-    background-color:lightgray;
-    margin-left:-15px;
-    margin-right:-15px;
-    padding:7px;
-    font-family: 'Kalam';
+.container {
+   font-family: 'Big Shoulders Display', cursive;
+}
 
+.card-header {
+   font-family: 'Big Shoulders Display', cursive;
 }
-h2{
-    background-color:lightgray;
-    margin-left:-15px;
-    margin-right:-15px;
-    padding:7px;
-    font-family: 'Kalam';
+
+#btnHome {
+   text-align: center;
+   padding: 20px;
 }
-.col-sm-5{
-   border-style:solid;
-   margin:5px;
-   height:215px;
-   background-color:lightsteelblue;
-   
+
+#logo {
+   font-size: 70px;
+   letter-spacing: 15px;
+   color: #b3f5fec1;
+   float: left;
+   text-shadow: 2px 2px 8px rgb(255, 255, 255);
 }
-body{
-   background-image:url("https://hdwallpaper20.com/wp-content/uploads/data/2018/4/5/Black-and-White-Computer-Backgrounds-best-black-and-white-computer-backgrounds-1920x1200-high-resolution-PIC-HWB450933.jpg");
+
+#logoicon {
+   float: left;
+   margin-right: 10px;
+   margin-top: 20px;
+}
+
+.jumbotron {
+   background-image: url("../images/organic.gif");
+   background-size: 1200px 500px;
+   background-repeat: no-repeat, repeat;
+   color: white;
+   padding-bottom: 150px;
+   box-shadow: 10px 10px 8px #888888;
+}
+
+.form-group {
+   text-align: center;
+   font-size: 30px;
+   font-weight: 300;
+}
+
+div {
+   padding-bottom: 5px;
+}
+
+#formBox {
+   font-family: 'Big Shoulders Display', cursive;
+}
+
+#bookContent {
+   padding-left: 20px;
+}
+
+.containContent {
+   font-family: 'Big Shoulders Display', cursive;
+   height: 450px;
+   overflow: auto;
+   background: rgba(0, 128, 128, 0.495);
+   border-radius: 18px;
+}
+
+
+.col-sm-5 {
+   background: white;
+   box-shadow: 10px 10px 5px #888888;
+   overflow: auto;
+}
+
+.col-sm-7 {
+   background-image: url("../images/worn_dots.png");
+}
+
+.col-sm-12 {
+   text-align: center;
+}
+
+.contentTitle {
+   background-color: #1b252f;
+   color: white;
+   border-bottom: 3px solid rgb(238, 91, 75);
+   margin-right: -15px;
+   padding: 7px;
+}
+
+h2 {
+   margin-left: -15px;
+   margin-right: -15px;
+   padding: 7px;
+}
+
+.col-sm-5 {
+   border-style: solid;
+   margin: 5px;
+   height: 215px;
+}
+
+.fa {
+   margin-right: 5px;
+}
+
+button {
+   margin-right: 10px;
+   margin-bottom: 5px;
+}
+
+#bio {
+   color: black;
+   float: right;
+   font-size: 20px;
 }
