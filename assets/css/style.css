@@ -1,5 +1,5 @@
 body {
-   background-color: white;
+   background-image: url("../images/topography.png");
 }
 
 .container {
@@ -31,10 +31,11 @@ body {
 
 .jumbotron {
    background-image: url("../images/organic.gif");
+   background-size: 1200px 500px;
    background-repeat: no-repeat, repeat;
    color: white;
    padding-bottom: 150px;
-   border-bottom: 3px solid rgb(238, 91, 75);
+   box-shadow: 10px 10px 8px #888888;
 }
 
 .form-group {
@@ -59,6 +60,8 @@ div {
    font-family: 'Big Shoulders Display', cursive;
    height: 450px;
    overflow: auto;
+   background: rgba(0, 128, 128, 0.495);
+   border-radius: 18px;
 }
 
 

@@ -29,27 +29,20 @@
           <strong id="logo">DIVELOP</strong>
         </h1>
       </div>
-      <div id="bio">
-        <p>DIVELOP is one stop shop, resource app for introductory level developers. </p>
-        </br>Created by: Ann, Matt, Malik, Pierre, and Vincent
-
-      </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4" id="formBox">
+      <div class="col-sm-6" id="formBox">
         <div class="form-group">
           <label for="inputSearch"><i class="fa fa-search" aria-hidden="true"></i>Your Resource Center</label>
           <input type="search" class="form-control" id="inputSearch" aria-describedby="searchHelp"
             placeholder="Search to add your topic">
           <button type="button" class="btn btn-dark" id="searchbtn">Generate</button>
         </div>
-        <div class="item animated pulse">
-          <div id="btnHome"></div>
-        </div>
       </div>
-      <div class="col-sm-4"></div>
+      <div class="col-sm-6">
+          <div id="btnHome"></div>
+      </div>
     </div>
 
     <div class='container-fluid'></div>
@@ -70,12 +63,13 @@
         </div>
       </div>
 
-
       <div class="col-sm-4">
         <div class="containContent">
           <h3 class="contentTitle"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
             What's Trending ?</h3>
+            <div id="articleContent"></div>
         </div>
+        
       </div>
 
     </div>
@@ -98,6 +92,7 @@
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
     integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'>
   </script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
   <script src="https://use.fontawesome.com/21d3e02c10.js"></script>
   <script src='assets/javascript/app.js'></script>
 </body>
